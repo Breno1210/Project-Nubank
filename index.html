@@ -72,24 +72,53 @@
         <!--=========== MENU MOBILE ===========-->
         <nav class="menu-mobile" id="menu-mobile">
             <ul class="nav-list-mobile">
-                <li><a href="" class="nav-link-mobile">Nubank</a></li>
-                <li><a href="" class="nav-link-mobile">Conta Digital</a></li>
-                <li><a href="" class="nav-link-mobile">Pra você</a></li>
-                <li><a href="" class="nav-link-mobile">Quero ser Nubank</a></li>
-                <li><a href="" class="nav-link-mobile">Redes sociais</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Nubank</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Conta Digital</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Pra você</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Quero ser Nubank</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Redes sociais</a></li>
 
-                <li class="mt-3">
-                    <!-- <a href=""><img src="svg/icon-facebook.svg" alt="" onload="SVGInject(this)"></a>
-                    <a href=""><img src="svg/icon-youtube.svg" alt="" onload="SVGInject(this)"></a>
-                    <a href=""><img src="svg/icon-instagram.svg" alt="" onload="SVGInject(this)"></a>
-                    <a href=""><img src="svg/icon-twitter.svg" alt="" onload="SVGInject(this)"></a> -->
+                <li class="mt-3 flex-center">
+                    <a href=""><img src="svg/icon-facebook.svg" class="mx-1" alt="" onload="SVGInject(this)"></a>
+                    <a href=""><img src="svg/icon-youtube.svg" class="mx-1" alt="" onload="SVGInject(this)"></a>
+                    <a href=""><img src="svg/icon-instagram.svg" class="mx-1" alt="" onload="SVGInject(this)"></a>
+                    <a href=""><img src="svg/icon-twitter.svg" class="mx-1" alt="" onload="SVGInject(this)"></a>
                 </li>
             </ul>
         </nav>
 
     </header>
+
     <!--=========== HERO ===========-->
+    <div class="bg-home">
+        <img src="svg/bg-home.svg" class="svg-bg-home" loading="lazy" onload="SVGInject(this)" />
+    </div>
+    <main class="container hero py-5"> 
+        <div class="flex-item-1 py-3">
+
+            <h1 ><!--data-aos="fade-up" data-aos-delay="600"-->
+                Ser Nubank é reinventar sua vida financeira.
+            </h1>
+            <p class="my-2" ><!--data-aos="fade-up" data-aos-delay="700"-->
+                Conta com rendimento acima da poupança, cartão de 
+                crédito sem anuidade e o melhor: resolva tudo pelo app.
+            </p>
+            <div class="flex-start" ><!--data-aos="fade-up" data-aos-delay="800"-->
+                <a href="#" class="btn">Quero ser Nubank</a>
+                <a href="#appstore"><img class="ml-2" src="svg/appstore.svg"   onload="SVGInject(this)" /></a><!--loading="lazy"-->
+                <a href="#playstore"><img class="ml-2" src="svg/playstore.svg"  onload="SVGInject(this)" /></a><!--loading="lazy"-->
+            </div>
+                
+        </div>
+        <div class="flex-center flex-item-3 div-card py-4" ><!--data-aos="fade-up" data-aos-delay="900"-->
+            <img src="svg/icon-card.svg" class="icon-card-hero dropshadow" alt="" onload="SVGInject(this)" /><!-- loading="lazy"-->
+            <img src="svg/icon-mobile.svg" class="icon-mobile-hero dropshadow" alt="" onload="SVGInject(this)" /><!-- loading="lazy"-->
+            <img src="svg/icon-contactless.svg" class="icon-contactless-hero dropshadow" alt="" onload="SVGInject(this)" /><!-- loading="lazy"-->
+            <div class="card"></div>
+        </div>
+    </main>
     
+
     <!--=========== JS ===========-->
     <script src="js/app.js"></script>
 

@@ -235,3 +235,34 @@ $container-s: 540px;
   }
 }
 
+.bg-invite{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-bg-invite{
+  position: absolute;
+
+  width: 100%;
+
+  z-index: -1;
+
+  @include responsive(s) {
+    width: 150%;
+  }
+}
+
+.invite {
+  height: 90vh;
+
+  @include responsive(s) {
+    height: auto;
+  }
+}

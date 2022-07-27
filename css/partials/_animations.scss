@@ -141,6 +141,66 @@ $height-card: 0.63 * $width-card;
     }
 }
 
+// LOGO NU
+
+.logonu-letter-n {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: logonu-letter-n 7s ease infinite alternate;
+}
+
+.logonu-letter-u {
+    transform-origin: center center;
+    transform-box: fill-box;
+    animation: logonu-letter-u 7s ease infinite alternate;
+}
+
+@keyframes logonu-letter-n {
+    0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        stroke-dasharray: 1 100;
+        stroke-width: 0;
+    }
+
+    20%,
+    50% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        stroke-dasharray: 100 0;
+        stroke-width: 2;
+    }
+
+    60%,
+    100% {
+        opacity: 1;
+        transform: translate3d(40px, 10px, 0) rotate(180deg);
+    }
+}
+
+@keyframes logonu-letter-u {
+    0% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        stroke-dasharray: 1 100;
+        stroke-width: 0;
+    }
+
+    20%,
+    50% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        stroke-dasharray: 100 0;
+        stroke-width: 2;
+    }
+
+    60%,
+    100% {
+        opacity: 1;
+        transform: translate3d(-40px, -10px, 0) rotate(180deg);
+    }
+}
+
 // Background home
 .glass,
 .fignu5 {
@@ -487,6 +547,7 @@ $height-card: 0.63 * $width-card;
     }
 }
 
+
 // ANIMATION INVITE
 .fignu5-ball1 {
     transform: translate3d(-100px, -20px, 0);
@@ -557,5 +618,62 @@ $height-card: 0.63 * $width-card;
     90%,
     100% {
         transform: translate3d(100px, 100px, 0);
+    }
+}
+
+.pulse {
+    width: 12px;
+    height: 12px;
+
+    display: none;
+
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    border-radius: 50%;
+
+    background-color: $white-light;
+
+    animation: pulse 5s linear 3s infinite,
+        pulse-move 10s ease 3s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(250, 250, 250, 0.7);
+    }
+
+    20% {
+        box-shadow: 0 0 0 200px rgba(250, 250, 250, 0);
+    }
+
+    40%,
+    100% {
+        box-shadow: 0 0 0 500px rgba(250, 250, 250, 0);
+    }
+}
+
+@keyframes pulse-move {
+
+    0%,
+    20% {
+        top: 50%;
+        left: 65%;
+    }
+
+    40% {
+        top: 65%;
+        left: 50%;
+    }
+
+    50%,
+    80% {
+        top: 58%;
+        left: 35%;
+    }
+
+    100% {
+        top: 20%;
+        left: 45%;
     }
 }

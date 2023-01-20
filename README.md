@@ -20,7 +20,7 @@
 </h4>
 
 <div>
-    <img src="img/main-page.png" alt="">
+    <img src="img/mainPage.png" alt="">
 </div>
 
 ## How to use

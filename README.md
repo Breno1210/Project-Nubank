@@ -57,7 +57,8 @@
 <h1 align="center">
     <img alt="Logo" src="img/ui-final.png" />
 </h1>
-✒️ Author
+
+## ✒️ Author
 
 - [@Breno1210](https://github.com/Breno1210)
 - Teacher [Násser Yousef Ali](https://github.com/nyousefali)

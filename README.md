@@ -49,6 +49,14 @@
 
     In this way, you can go to your preferred browser and type the url `http://localhost:3000` that the application will be at that address.
 
+
+<h1 align="center">
+    UI-Final
+    <br>
+</h1>
+<h1 align="center">
+    <img alt="Logo" src="img/ui-final.png" />
+</h1>
 ## ✒️ Author
 
 - [@Breno1210](https://github.com/Breno1210)
